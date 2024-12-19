@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Move issue to "issue:Todo"
-        uses: actions-ecosystem/action-add-project-card@v1
+        uses: ineshbose/project-card-action@v1
         with:
           project_url: https://github.com/KaitoMizuuchi/Next-bouiler-plate
           column_name: "issue:Todo"
