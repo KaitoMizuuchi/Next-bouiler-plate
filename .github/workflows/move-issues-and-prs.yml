@@ -14,5 +14,3 @@ jobs:
         with:
           project-url: https://github.com/users/KaitoMizuuchi/projects/4
           github-token: ${{ secrets.GITHUB_TOKEN }}
-
-
