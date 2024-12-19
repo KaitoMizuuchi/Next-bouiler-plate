@@ -1,0 +1,17 @@
+name: Move New Issue to issue:Todo
+
+on:
+  issues:
+    types:
+      - opened
+
+jobs:
+  move_issue_to_do:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Move issue to "issue:Todo"
+        uses: actions-ecosystem/action-add-project-card@v1
+        with:
+          project_url: https://github.com/KaitoMizuuchi/Next-bouiler-plate
+          column_name: "issue:Todo"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
