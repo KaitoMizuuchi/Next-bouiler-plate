@@ -12,6 +12,6 @@ jobs:
       - name: Move issue to "issue:Todo"
         uses: actions/add-to-project@v0.4.0
         with:
-          project_url: https://github.com/users/KaitoMizuuchi/projects/4
-          column_name: "issue:Todo"
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          project-url: https://github.com/users/KaitoMizuuchi/projects/4
+          column-name: "issue:Todo"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
