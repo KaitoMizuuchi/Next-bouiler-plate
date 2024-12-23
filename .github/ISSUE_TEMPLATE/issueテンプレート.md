@@ -1,7 +1,7 @@
 ---
 name: DCコーポレートテンプレート
 about: DCコーポレートで使用するテンプレートになります。
-title: 例）【Top】topページの作成
+title: 【作業ページ】[簡単な作業内容を記述]
 labels: ""
 assignees: KaitoMizuuchi
 ---
@@ -14,6 +14,10 @@ assignees: KaitoMizuuchi
 - [ ] タスク 2
 
 # 作業ブランチ
+
+### 親 issue
+
+### 子 issue
 
 # 参考資料
 
