@@ -6,7 +6,7 @@ const About = () => {
     title: 'title',
     page: 20,
   };
-  const page = 'Good';
+  const sample = 'Good';
   return (
     // TODO: ページ作成
     // HACK: 一時的な解決策。修正が必要であることを示唆。コードが長くてリファクタ必要か
