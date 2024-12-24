@@ -32,7 +32,6 @@ const eslintConfig = [
       ...(typescript.configs?.["recommended-type-checked"]?.rules ?? {}),
       ...(typescript.configs?.["stylistic-type-checked"]?.rules ?? {}),
       "@typescript-eslint/array-type": "off",
-      "@typescript-eslint/consistent-type-definitions": ["error", "type"],
       "@typescript-eslint/consistent-type-imports": [
         "warn",
         {
@@ -54,8 +53,6 @@ const eslintConfig = [
           case: "kebabCase",
         },
       ],
-      "func-style": ["error", "declaration", { allowArrowFunctions: false }],
-      "prefer-arrow-callback": ["error", { allowNamedFunctions: false }],
       "import/no-default-export": "error",
     },
   },
