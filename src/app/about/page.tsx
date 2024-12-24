@@ -2,6 +2,10 @@ import React, { useState } from 'react';
 
 const About = () => {
   const [todo, setTodo] = useState();
+  const sample = {
+    title: 'title',
+    page: 20,
+  };
   return (
     // TODO: ページ作成
     // HACK: 一時的な解決策。修正が必要であることを示唆。コードが長くてリファクタ必要か
