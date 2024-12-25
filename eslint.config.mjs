@@ -39,21 +39,27 @@ const eslintConfig = [
           fixStyle: "inline-type-imports",
         },
       ],
-      "@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
+      "@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
       "@typescript-eslint/require-await": "off",
-      "@typescript-eslint/no-misused-promises": [
-        "error",
-        {
-          checksVoidReturn: { attributes: false },
-        },
-      ],
       "unicorn/filename-case": [
         "error",
         {
-          case: "kebabCase",
+          cases: {
+            camelCase: true,
+            pascalCase: true,
+          },
+          multipleFileExtensions: true,
         },
       ],
       "import/no-default-export": "error",
+      "func-style": ["error", "expression", { "allowArrowFunctions": true }],
+      "no-console": ["error", { "allow": ["warn", "error"] }],
+    },
+  },
+  {
+    files: ["**/*.tsx"],
+    rules: {
+      "import/no-default-export": "off",
     },
   },
   {
@@ -68,9 +74,6 @@ const eslintConfig = [
       "import/no-default-export": "off",
       "import/prefer-default-export": "error",
     },
-  },
-  {
-    ignores: ["src/components/ui/*", "*.md"]
   }
 ];
 
