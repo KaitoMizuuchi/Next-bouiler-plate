@@ -34,7 +34,6 @@
     }
   ],
   "endOfLine": "lf",
-  "jsxBracketSameLine": true,
   "arrowParens": "always",
   "htmlWhitespaceSensitivity": "css"
 }
