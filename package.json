@@ -7,7 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky"
+    "prepare": "husky",
+    "format": "prettier --write .",
+    "eslint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "stylelint": "stylelint \"**/*.{css,scss}\" --fix"
   },
   "dependencies": {
     "next": "15.1.0",
