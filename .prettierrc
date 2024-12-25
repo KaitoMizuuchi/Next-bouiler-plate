@@ -25,6 +25,14 @@
   "trailingComma": "all",
   "singleQuote": true,
   "jsxSingleQuote": false,
+  "overrides": [
+    {
+      "files": "*.scss",
+      "options": {
+        "singleQuote": false
+      }
+    }
+  ],
   "endOfLine": "lf",
   "jsxBracketSameLine": true,
   "arrowParens": "always",
