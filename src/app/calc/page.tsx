@@ -1,5 +1,4 @@
 import React from 'react';
-
 import styles from './calc.module.scss';
 
 const page = () => {
